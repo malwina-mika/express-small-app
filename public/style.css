@@ -1,4 +1,22 @@
+
 h1 {
 	font-weight: lighter;
 	font-style: italic;
+}
+
+.main {
+  color: #0c2461;
+}
+
+.main a {
+  color:#e84393;
+}
+
+.dark {
+  background-color: #2d3436;
+  color: #ffeaa7;
+} 	
+
+.dark a {
+  color: #fab1a0;
 }
