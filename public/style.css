@@ -1,15 +1,16 @@
 
 h1 {
-	font-weight: lighter;
-	font-style: italic;
+  font-weight: lighter;
 }
 
-.main {
-  color: #0c2461;
+p {
+  color: #999;
+  font-size: 0.8rem;
 }
 
-.main a {
-  color:#e84393;
+a {
+  color: #999;
+  font-size: 0.8rem;
 }
 
 .dark {
@@ -20,3 +21,4 @@ h1 {
 .dark a {
   color: #fab1a0;
 }
+
