@@ -34,7 +34,7 @@ app.post('/contact/send-message', (req, res) => {
     res.render('contact', { isSent: true });
   }
   else {
-    res.render('contact', { isErroe: true });
+    res.render('contact', { isError: true });
   }
 
 });

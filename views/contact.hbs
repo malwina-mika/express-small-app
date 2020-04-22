@@ -1,7 +1,7 @@
 <h2>Contact me</h2>
 
 {{#if isSend}}
-<div class="isSend">The message has been sent!</div>
+<div class="isSent">The message has been sent!</div>
 {{/if}}
 
 {{#if isError}}
@@ -17,6 +17,9 @@
   </label>
   <label>
     Title: <input type="text" name="title">
+  </label>
+  <label>
+    Project design: <input type="file" name="project design">
   </label>
   <label>
     Message: <textarea name="message"></textarea>
